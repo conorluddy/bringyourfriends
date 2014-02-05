@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>story.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="init.html">
+                init.js
+              </a>
+            
+              
+              <a class="source" href="setMsg.html">
+                setMsg.js
+              </a>
+            
+              
+              <a class="source" href="story.html">
+                story.js
+              </a>
+            
+              
+              <a class="source" href="liftapp.html">
+                liftapp.js
+              </a>
+            
+              
+              <a class="source" href="locate.html">
+                locate.js
+              </a>
+            
+              
+              <a class="source" href="marker.html">
+                marker.js
+              </a>
+            
+              
+              <a class="source" href="directions.html">
+                directions.js
+              </a>
+            
+              
+              <a class="source" href="initialise.html">
+                initialise.js
+              </a>
+            
+              
+              <a class="source" href="styles.html">
+                styles.js
+              </a>
+            
+              
+              <a class="source" href="helper.html">
+                helper.js
+              </a>
+            
+              
+              <a class="source" href="plugins.html">
+                plugins.js
+              </a>
+            
+              
+              <a class="source" href="coordinates.html">
+                coordinates.js
+              </a>
+            
+              
+              <a class="source" href="marker.html">
+                marker.js
+              </a>
+            
+              
+              <a class="source" href="message.html">
+                message.js
+              </a>
+            
+              
+              <a class="source" href="modernizr-2.6.2.min.html">
+                modernizr-2.6.2.min.js
+              </a>
+            
+              
+              <a class="source" href="zepto.min.html">
+                zepto.min.js
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>story.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <h2 id="liftapp">LiftApp</h2>
+<p>App control methods</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+
+<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> LA === <span class="hljs-string">"undefined"</span> || !LA ) 
+	window.LA = {};
+
+<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> LA.controller === <span class="hljs-string">"undefined"</span> || !LA.controller) 
+	window.LA.controller = {};</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <h2 id="initialise-the-application">Initialise the application</h2>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>LA.controller.story = {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <h2 id="get-the-starting-point-of-the-trip">Get the starting point of the trip</h2>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>1) Set your starting location</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>		askForStartLocation : <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> {</span>
+
+			<span class="hljs-keyword">var</span> startLocationListener;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>Set the user messages</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>			LA.controller.setMsg.instruct( LA.store.message.story.step1 );
+			LA.controller.setMsg.confirm( LA.store.message.confirm.step1 );
+			LA.controller.setMsg.okBtn( LA.store.message.btn.k );
+			LA.controller.setMsg.yesBtn( LA.store.message.btn.y );
+			LA.controller.setMsg.noBtn( LA.store.message.btn.n );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <p>Hide the instruction panel on ‘OK’ click</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>			LA.ok_btn.one(<span class="hljs-string">'click'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> {</span>
+				event.preventDefault();
+				LA.instruct_panel.addClass(<span class="hljs-string">'away'</span>);
+			});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-9">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-9">&#182;</a>
+              </div>
+              <p>Add map listener to get the location requested</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>			startLocationListener = google.maps.event.addListener( LA.map, <span class="hljs-string">'click'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> {</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-10">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-10">&#182;</a>
+              </div>
+              <p>Show the confirmation panel when a location is selected</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>				LA.confirm_panel.removeClass(<span class="hljs-string">'away'</span>);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-11">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-11">&#182;</a>
+              </div>
+              <p>Clear any saved marker for this</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>				<span class="hljs-keyword">if</span> ( LA.store.coordinates.startLocation !== <span class="hljs-literal">null</span>)
+					LA.store.coordinates.startLocation.setMap(<span class="hljs-literal">null</span>);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-12">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-12">&#182;</a>
+              </div>
+              <p>Add marker for the last clicked/tapped location</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>				LA.store.coordinates.startLocation = LA.locations.marker.placeMarker( event.latLng, LA.store.marker.icon.startPoint );
+
+			});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-13">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-13">&#182;</a>
+              </div>
+              <p>Location is confirmed, move to next step</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>			LA.yes_btn.one(<span class="hljs-string">'click'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> {</span>
+				event.preventDefault();
+
+				<span class="hljs-keyword">if</span> ( LA.store.coordinates.startLocation !== <span class="hljs-literal">null</span>){
+					
+					LA.confirm_panel.addClass(<span class="hljs-string">'away'</span>);
+
+					LA.no_btn.off(<span class="hljs-string">'click'</span>);
+
+					google.maps.event.removeListener( startLocationListener );
+
+					window.setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> {</span> 
+						LA.controller.story.askForDestinationLocation(); 
+					}, <span class="hljs-number">300</span>);
+				}
+				
+			});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-14">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-14">&#182;</a>
+              </div>
+              <p>Location is cancelled, remove the marker and wait for new selection</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>			LA.no_btn.on(<span class="hljs-string">'click'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> {</span>
+				event.preventDefault();
+
+				LA.store.coordinates.startLocation.setMap(<span class="hljs-literal">null</span>);
+
+				LA.confirm_panel.addClass(<span class="hljs-string">'away'</span>);
+			});
+		},</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-15">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-15">&#182;</a>
+              </div>
+              <h2 id="get-the-destination-point-of-the-trip">Get the destination point of the trip</h2>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-16">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-16">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>		askForDestinationLocation : <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> {</span>
+
+			<span class="hljs-keyword">var</span> destinationLocationListener;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-17">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-17">&#182;</a>
+              </div>
+              <p>Set the user messages</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>			LA.controller.setMsg.instruct( LA.store.message.story.step2 );
+			LA.controller.setMsg.confirm( LA.store.message.confirm.step2 );
+			LA.controller.setMsg.okBtn( LA.store.message.btn.k2 );
+			LA.controller.setMsg.yesBtn( LA.store.message.btn.y2 );
+			LA.controller.setMsg.noBtn( LA.store.message.btn.n2 );
+
+			LA.instruct_panel.removeClass(<span class="hljs-string">'away'</span>);
+
+			LA.ok_btn.one(<span class="hljs-string">'click'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> {</span>
+				event.preventDefault();
+				LA.instruct_panel.addClass(<span class="hljs-string">'away'</span>);
+			});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-18">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-18">&#182;</a>
+              </div>
+              <p>Add map listener to get the location requested</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>			destinationLocationListener = google.maps.event.addListener( LA.map, <span class="hljs-string">'click'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> {</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-19">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-19">&#182;</a>
+              </div>
+              <p>Show the confirmation panel when a location is selected</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>				LA.confirm_panel.removeClass(<span class="hljs-string">'away'</span>);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-20">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-20">&#182;</a>
+              </div>
+              <p>Clear any saved marker for this</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>				<span class="hljs-keyword">if</span> ( LA.store.coordinates.endLocation !== <span class="hljs-literal">null</span>)
+					LA.store.coordinates.endLocation.setMap(<span class="hljs-literal">null</span>);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-21">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-21">&#182;</a>
+              </div>
+              <p>Add marker for the last clicked/tapped location</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>				LA.store.coordinates.endLocation = LA.locations.marker.placeMarker( event.latLng, LA.store.marker.icon.endPoint );
+
+			});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-22">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-22">&#182;</a>
+              </div>
+              <p>Destination is confirmed, move to next step</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>			LA.yes_btn.one(<span class="hljs-string">'click'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> {</span>
+				event.preventDefault();
+
+				<span class="hljs-keyword">if</span> ( LA.store.coordinates.endLocation !== <span class="hljs-literal">null</span>){
+					
+					LA.confirm_panel.addClass(<span class="hljs-string">'away'</span>);
+
+					LA.no_btn.off(<span class="hljs-string">'click'</span>);
+
+					google.maps.event.removeListener( destinationLocationListener );
+
+					window.setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> {</span> 
+						LA.controller.story.getARoute( LA.store.coordinates.startLocation, LA.store.coordinates.endLocation ); 
+					}, <span class="hljs-number">300</span>);
+				}
+				
+			});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-23">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-23">&#182;</a>
+              </div>
+              <p>Location is cancelled, remove the marker and wait for new selection</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>			LA.no_btn.on(<span class="hljs-string">'click'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> {</span>
+				event.preventDefault();
+
+				LA.store.coordinates.endLocation.setMap(<span class="hljs-literal">null</span>);
+
+				LA.confirm_panel.addClass(<span class="hljs-string">'away'</span>);
+			});
+
+
+		},</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-24">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-24">&#182;</a>
+              </div>
+              <h2 id="find-a-route-from-a-to-b">Find a route from A to B</h2>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-25">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-25">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>		getARoute : <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">( pointA, pointB )</span> {</span>
+
+			<span class="hljs-keyword">var</span>
+			directionsService = <span class="hljs-keyword">new</span> google.maps.DirectionsService(),
+			directionsDisplay = <span class="hljs-keyword">new</span> google.maps.DirectionsRenderer({ polylineOptions: LA.maps.directions.style.polylineOpts });
+			directionRequest = {
+				origin: pointA.position,
+				destination: pointB.position,
+				travelMode: google.maps.TravelMode.DRIVING
+			};
+
+			directionsDisplay.setMap(LA.map);
+
+			directionsService.route(directionRequest, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(response, status)</span> {</span>
+
+				<span class="hljs-keyword">if</span> (status == google.maps.DirectionsStatus.OK)
+					directionsDisplay.setDirections(response);
+
+			});
+		},</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-26">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-26">&#182;</a>
+              </div>
+              <h2 id="start-the-story">Start the story</h2>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-27">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-27">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>		init : <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> {</span>
+			LA.controller.story.askForStartLocation();
+		}
+};</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>

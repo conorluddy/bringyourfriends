@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"path": "/",
+			"name": "Root"
+		}
+	],
+    	"settings":
+    	{
+        	"tab_size": 6,
+        	"font_size": 11,
+        	"color_scheme": "Packages/User/Tomorrow-Night-Eighties (SL).tmTheme"
+	}
+}

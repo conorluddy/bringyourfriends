@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>init.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="init.html">
+                init.js
+              </a>
+            
+              
+              <a class="source" href="setMsg.html">
+                setMsg.js
+              </a>
+            
+              
+              <a class="source" href="story.html">
+                story.js
+              </a>
+            
+              
+              <a class="source" href="liftapp.html">
+                liftapp.js
+              </a>
+            
+              
+              <a class="source" href="locate.html">
+                locate.js
+              </a>
+            
+              
+              <a class="source" href="marker.html">
+                marker.js
+              </a>
+            
+              
+              <a class="source" href="directions.html">
+                directions.js
+              </a>
+            
+              
+              <a class="source" href="initialise.html">
+                initialise.js
+              </a>
+            
+              
+              <a class="source" href="styles.html">
+                styles.js
+              </a>
+            
+              
+              <a class="source" href="helper.html">
+                helper.js
+              </a>
+            
+              
+              <a class="source" href="plugins.html">
+                plugins.js
+              </a>
+            
+              
+              <a class="source" href="coordinates.html">
+                coordinates.js
+              </a>
+            
+              
+              <a class="source" href="marker.html">
+                marker.js
+              </a>
+            
+              
+              <a class="source" href="message.html">
+                message.js
+              </a>
+            
+              
+              <a class="source" href="modernizr-2.6.2.min.html">
+                modernizr-2.6.2.min.js
+              </a>
+            
+              
+              <a class="source" href="zepto.min.html">
+                zepto.min.js
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>init.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+<span class="hljs-comment">/*
+
+	LiftApp
+	
+	App control methods
+
+ */</span>
+
+
+<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> LA === <span class="hljs-string">"undefined"</span> || !LA ) 
+	window.LA = {};
+
+<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> LA.controller === <span class="hljs-string">"undefined"</span> || !LA.controller) 
+	window.LA.controller = {};
+
+
+
+
+<span class="hljs-comment">/*
+Initialise the application 
+*/</span>
+LA.controller.init = {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>Hook JS to UI elements</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>		ui : <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> {</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>Save these elements for global access</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>			LA.instruct_panel = $(<span class="hljs-string">'#panel_instruct'</span>);
+			LA.instruct_panel_msg = $(<span class="hljs-string">'#panel_instruct span'</span>);
+			LA.ok_btn = LA.instruct_panel.find(<span class="hljs-string">'a'</span>);
+			LA.confirm_panel = $(<span class="hljs-string">'#panel_confirm'</span>);
+			LA.confirm_panel_msg = $(<span class="hljs-string">'#panel_confirm span'</span>);
+			LA.yes_btn = LA.confirm_panel.find(<span class="hljs-string">'.Y'</span>);
+			LA.no_btn = LA.confirm_panel.find(<span class="hljs-string">'.N'</span>);
+
+		},</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>Set up the map and an array for the markers</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>		map : <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> {</span>
+
+			LA.markers = [];
+
+			LA.maps.initialise.map();			
+			LA.maps.initialise.search();
+
+		},
+
+		locations : <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> {</span>
+
+			LA.locations.locate.getOurLocation();
+			
+		}
+};
+
+
+
+
+
+<span class="hljs-comment">/* When doc is ready, run */</span>
+jQuery(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">($, window, document, undefined)</span> {</span>
+<span class="hljs-pi">
+	"use strict"</span>;
+
+	LA.controller.init.map();
+
+	LA.controller.init.locations();
+
+
+	LA.controller.init.ui();
+
+	LA.controller.story.init();
+
+
+}(jQuery, window, document));</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>

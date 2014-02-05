@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>styles.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="init.html">
+                init.js
+              </a>
+            
+              
+              <a class="source" href="setMsg.html">
+                setMsg.js
+              </a>
+            
+              
+              <a class="source" href="story.html">
+                story.js
+              </a>
+            
+              
+              <a class="source" href="liftapp.html">
+                liftapp.js
+              </a>
+            
+              
+              <a class="source" href="locate.html">
+                locate.js
+              </a>
+            
+              
+              <a class="source" href="marker.html">
+                marker.js
+              </a>
+            
+              
+              <a class="source" href="directions.html">
+                directions.js
+              </a>
+            
+              
+              <a class="source" href="initialise.html">
+                initialise.js
+              </a>
+            
+              
+              <a class="source" href="styles.html">
+                styles.js
+              </a>
+            
+              
+              <a class="source" href="helper.html">
+                helper.js
+              </a>
+            
+              
+              <a class="source" href="plugins.html">
+                plugins.js
+              </a>
+            
+              
+              <a class="source" href="coordinates.html">
+                coordinates.js
+              </a>
+            
+              
+              <a class="source" href="marker.html">
+                marker.js
+              </a>
+            
+              
+              <a class="source" href="message.html">
+                message.js
+              </a>
+            
+              
+              <a class="source" href="modernizr-2.6.2.min.html">
+                modernizr-2.6.2.min.js
+              </a>
+            
+              
+              <a class="source" href="zepto.min.html">
+                zepto.min.js
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>styles.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+
+<span class="hljs-comment">/*
+
+	LiftApp
+	
+	Map styles
+
+ */</span>
+
+<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> LA === <span class="hljs-string">"undefined"</span> || !LA) 
+	window.LA = {};
+<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> LA.maps === <span class="hljs-string">"undefined"</span> || !LA.maps) 
+	window.LA.maps = {};
+
+
+
+<span class="hljs-comment">/*
+Map styling
+*/</span>
+LA.maps.styles = [{
+				<span class="hljs-string">"featureType"</span>: <span class="hljs-string">"landscape"</span>,
+				<span class="hljs-string">"stylers"</span>: [{
+					<span class="hljs-string">"saturation"</span>: -<span class="hljs-number">100</span>
+				}, {
+					<span class="hljs-string">"lightness"</span>: <span class="hljs-number">65</span>
+				}, {
+					<span class="hljs-string">"visibility"</span>: <span class="hljs-string">"on"</span>
+				}]
+			}, {
+				<span class="hljs-string">"featureType"</span>: <span class="hljs-string">"poi"</span>,
+				<span class="hljs-string">"stylers"</span>: [{
+					<span class="hljs-string">"saturation"</span>: -<span class="hljs-number">100</span>
+				}, {
+					<span class="hljs-string">"lightness"</span>: <span class="hljs-number">51</span>
+				}, {
+					<span class="hljs-string">"visibility"</span>: <span class="hljs-string">"simplified"</span>
+				}]
+			}, {
+				<span class="hljs-string">"featureType"</span>: <span class="hljs-string">"road.highway"</span>,
+				<span class="hljs-string">"stylers"</span>: [{
+					<span class="hljs-string">"saturation"</span>: -<span class="hljs-number">100</span>
+				}, {
+					<span class="hljs-string">"visibility"</span>: <span class="hljs-string">"simplified"</span>
+				}]
+			}, {
+				<span class="hljs-string">"featureType"</span>: <span class="hljs-string">"road.arterial"</span>,
+				<span class="hljs-string">"stylers"</span>: [{
+					<span class="hljs-string">"saturation"</span>: -<span class="hljs-number">100</span>
+				}, {
+					<span class="hljs-string">"lightness"</span>: <span class="hljs-number">30</span>
+				}, {
+					<span class="hljs-string">"visibility"</span>: <span class="hljs-string">"on"</span>
+				}]
+			}, {
+				<span class="hljs-string">"featureType"</span>: <span class="hljs-string">"road.local"</span>,
+				<span class="hljs-string">"stylers"</span>: [{
+					<span class="hljs-string">"saturation"</span>: -<span class="hljs-number">100</span>
+				}, {
+					<span class="hljs-string">"lightness"</span>: <span class="hljs-number">40</span>
+				}, {
+					<span class="hljs-string">"visibility"</span>: <span class="hljs-string">"on"</span>
+				}]
+			}, {
+				<span class="hljs-string">"featureType"</span>: <span class="hljs-string">"transit"</span>,
+				<span class="hljs-string">"stylers"</span>: [{
+					<span class="hljs-string">"saturation"</span>: -<span class="hljs-number">100</span>
+				}, {
+					<span class="hljs-string">"visibility"</span>: <span class="hljs-string">"simplified"</span>
+				}]
+			}, {
+				<span class="hljs-string">"featureType"</span>: <span class="hljs-string">"administrative.province"</span>,
+				<span class="hljs-string">"stylers"</span>: [{
+					<span class="hljs-string">"visibility"</span>: <span class="hljs-string">"off"</span>
+				}]
+			}, {
+				<span class="hljs-string">"featureType"</span>: <span class="hljs-string">"water"</span>,
+				<span class="hljs-string">"elementType"</span>: <span class="hljs-string">"labels"</span>,
+				<span class="hljs-string">"stylers"</span>: [{
+					<span class="hljs-string">"visibility"</span>: <span class="hljs-string">"on"</span>
+				}, {
+					<span class="hljs-string">"lightness"</span>: -<span class="hljs-number">25</span>
+				}, {
+					<span class="hljs-string">"saturation"</span>: -<span class="hljs-number">100</span>
+				}]
+			}, {
+				<span class="hljs-string">"featureType"</span>: <span class="hljs-string">"water"</span>,
+				<span class="hljs-string">"elementType"</span>: <span class="hljs-string">"geometry"</span>,
+				<span class="hljs-string">"stylers"</span>: [{
+					<span class="hljs-string">"hue"</span>: <span class="hljs-string">"#ffff00"</span>
+				}, {
+					<span class="hljs-string">"lightness"</span>: -<span class="hljs-number">25</span>
+				}, {
+					<span class="hljs-string">"saturation"</span>: -<span class="hljs-number">97</span>
+				}]
+}];</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>
