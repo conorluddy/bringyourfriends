@@ -1,0 +1,37 @@
+
+
+
+<%# #Inherits from layout.erb %>
+
+<input id="pac-input" class="controls" type="text" placeholder="Search Box">
+<div id="map-canvas"></div>
+
+<div class="panel large" id="panel_instruct">
+    <span></span>
+    <a href="#"></a>
+</div>
+
+<div class="panel small away" id="panel_confirm">
+    <span></span>
+    <a href="#" class="Y"></a>
+    <a href="#" class="N"></a>
+</div>    
+
+<div class="panel small away" id="panel_friends">
+    <ul></ul>
+</div>    
+
+<form class="panel tiny away" id="panel_submit" action="/trip/save" method="post">
+
+    <input type="hidden" class="hidden" id="trip-startLat" name="startLat" >
+    <input type="hidden" class="hidden" id="trip-startLon" name="startLon" >
+    <input type="hidden" class="hidden" id="trip-endLat" name="endLat" >
+    <input type="hidden" class="hidden" id="trip-endLon" name="endLon" >
+    <input type="hidden" class="hidden" id="trip-startTime" name="startTime" >
+    <input type="hidden" class="hidden" id="trip-etaTime" name="etaTime" >
+    <input type="hidden" class="hidden" id="trip-invitees" name="invitees" >
+    <input type="hidden" class="hidden" id="trip-seats" name="seats" >
+
+    <input type="submit" value="Save" id="trip-submit" />
+
+</form>    

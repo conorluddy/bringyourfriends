@@ -1,0 +1,31 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+<h1>
+Trips
+</h1>
+
+
+
+<% for trip in @trips %>
+	<ul>	
+		<li>
+
+			Owner: <%= trip.user.firstname %>
+
+			<br />
+
+			Created: <%= trip.created_at %>
+
+			<br />
+
+			<a href="/trip/<%= trip.id %>">More info</a>
+
+			<hr />
+
+		</li>				
+	</ul>
+<% end %>
+
+<hr />

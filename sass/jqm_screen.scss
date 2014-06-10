@@ -1,0 +1,14 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+
+
+@import "jqm_modules/variables";
+@import "jqm_modules/typo";
+@import "jqm_modules/defaults";
+@import "jqm_modules/maps";

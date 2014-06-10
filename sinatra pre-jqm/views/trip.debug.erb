@@ -1,0 +1,31 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+<h1>
+Trip details
+</h1>
+
+
+
+
+<h3>Trip ID: <%= @trip.id %></h3>
+
+<strong>
+	Owner: <%= @trip.user.firstname %>
+</strong>
+
+<ul>
+	<li>created_at: <%= @trip.created_at %></li>
+	<li>startTime: <%= @trip.startTime %></li>
+	<li>etaTime: <%= @trip.etaTime %></li>
+	<li>startLatLon: <%= @trip.startLat %> | <%= @trip.startLon %></li>
+	<li>endLatLon: <%= @trip.endLat %> | <%= @trip.endLon %></li>
+	<li>seats: <%= @trip.seats %></li>
+</ul>
+
+<ul>
+	<% for invitee in @trip.users %>
+		<li><%= invitee["firstname"] %></li>
+	<% end %>
+</ul>

@@ -1,0 +1,15 @@
+<%# #Inherits from layout.erb %>
+
+
+<h3>Friendcount: <%= @friends.length %></h3>
+
+<strong>
+	<%= @user.firstname %>
+</strong>
+
+<% for friend in @user.friends %>
+	<small><%= friend["firstname"] %></small>
+	<small><%= friend["latlon"] %></small>
+<% end %>
+
+

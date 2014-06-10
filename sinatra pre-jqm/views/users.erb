@@ -1,0 +1,27 @@
+
+<%# #Inherits from layout.erb %>
+
+
+<h1>Users</h1>
+
+	<% for user in @users %>
+	
+		id = <%= user.id %>
+		facebookId = <%= user.facebookId %>
+		email = <%= user.email %>
+		firstname = <%= user.firstname %>
+		lastname = <%= user.lastname %>
+		latlon = <%= user.latlon %>
+		joined_at = <%= user.joined_at %>
+		
+		<h3>Friends</h3>
+			<% for friend in user.friends %>
+				<small>
+					<%= friend["firstname"] %>
+				</small>
+			<% end %>
+		<hr>
+	<% end %>
+
+
+		

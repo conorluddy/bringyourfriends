@@ -1,0 +1,31 @@
+source 'https://rubygems.org'
+
+# gem 'sinatra'
+# gem 'omniauth-facebook'
+# ------------------------
+# source :rubygems
+
+gem 'sinatra'
+gem 'json'
+gem 'omniauth'
+gem 'omniauth-oauth2'
+gem 'omniauth-github'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'data_mapper'
+gem 'koala'
+gem 'rack-flash'
+gem 'rack-flash3'
+gem 'dm-sqlite-adapter'
+gem 'logger'
+
+
+# gem 'omniauth-att', :path => File.expand_path("./../../omniauth-att", __FILE__)
+
+gem 'thin'
+
+group :development do
+
+  gem 'shotgun'
+
+end

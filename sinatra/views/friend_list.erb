@@ -1,0 +1,32 @@
+<%# #Inherits from layout.erb %>
+
+
+
+
+
+<div data-role="header" data-position="inline">
+	
+	<a href="/home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars ui-btn-icon-notext"></a>
+	<span class="ui-title">
+		Lift App prototype | Friends using this app
+	</span>
+
+</div>
+
+<div data-role="content" data-theme="a">
+
+	<ul data-role="listview" data-inset="true">
+		<% for friend in @user.friends %>
+		<li>
+			<small><%= friend["firstname"] %></small>
+		</li>
+		<% end %>
+	</ul>
+
+</div>
+
+
+
+
+
+

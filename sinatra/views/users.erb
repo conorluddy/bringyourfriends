@@ -1,0 +1,50 @@
+
+<%# #Inherits from layout.erb %>
+
+
+
+
+<div data-role="header" data-position="inline">
+
+	<a href="/home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars ui-btn-icon-notext"></a>
+	<span class="ui-title">
+		Lift App prototype | Users
+	</span>
+
+</div>
+
+
+<div data-role="content" data-theme="a">
+	
+
+	<ul data-role="listview" data-inset="true">
+	<% for user in @users %>
+		<li>
+		
+			<h2>
+				<%= user.firstname %> <%= user.lastname %>
+			</h2>
+			<p>
+				<strong>facebookId = <%= user.facebookId %></strong>
+			</p>
+			<p>
+				id = <%= user.id %>
+			</p>
+			<p>
+				email = <%= user.email %>
+			</p>
+			<p>
+				latlon = <%= user.latlon %>
+			</p>
+
+		</li>
+	<% end %>
+	</ul>
+	
+
+</div>
+
+
+
+
+

@@ -4,24 +4,96 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"new_trip"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"prep",
+				"prepend	.prepend"
+			],
+			[
+				"prepe",
+				"prependTo	.prependTo()"
+			],
+			[
+				"invit",
+				"invitation"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
 				"mar",
-				"margin-left"
+				"margin"
+			],
+			[
+				"inv",
+				"Invitation"
+			],
+			[
+				"trip",
+				"tripowner"
+			],
+			[
+				"invitee",
+				"inviteeIDs"
+			],
+			[
+				"seria",
+				"serializeArray	.serializeArray()"
+			],
+			[
+				"each",
+				"each	$.each()"
+			],
+			[
+				"rem",
+				"removeClass	.removeClass"
+			],
+			[
+				"frie",
+				"friends"
+			],
+			[
+				"show",
+				"showFriendLocations"
+			],
+			[
+				"pr",
+				"property"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"cont",
+				"controller"
 			],
 			[
 				"toggle",
 				"toggleClass	.toggleClass()"
 			],
 			[
-				"marg",
-				"margin-top"
-			],
-			[
 				"back",
 				"background"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"border",
@@ -42,14 +114,6 @@
 			[
 				"bor",
 				"border-top"
-			],
-			[
-				"text",
-				"text-transform"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"tex",
@@ -92,10 +156,6 @@
 				"margin-bottom"
 			],
 			[
-				"font-",
-				"font-weight"
-			],
-			[
 				"fotn",
 				"font-style"
 			],
@@ -110,10 +170,6 @@
 			[
 				"fa",
 				"fancyFont"
-			],
-			[
-				"min",
-				"min-height"
 			],
 			[
 				"border-col",
@@ -264,10 +320,6 @@
 				"thisMin"
 			],
 			[
-				"each",
-				"each	.each()"
-			],
-			[
 				"op",
 				"op+	opacity: $1;\nfilter: alpha(opacity=$2);"
 			],
@@ -296,26 +348,82 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "sinatra/public/js/store/coordinates.js",
 			"settings":
 			{
-				"buffer_size": 3131,
+				"buffer_size": 398,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/main.css",
+			"file": "sass/screen.scss",
 			"settings":
 			{
-				"buffer_size": 3852,
+				"buffer_size": 550,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/maps.js",
+			"file": "sinatra/public/js/controller/friends.js",
 			"settings":
 			{
-				"buffer_size": 559,
+				"buffer_size": 2540,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sinatra/public/js/controller/trip.js",
+			"settings":
+			{
+				"buffer_size": 999,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sinatra/public/js/store/ui.js",
+			"settings":
+			{
+				"buffer_size": 619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sinatra/public/js/controller/story.js",
+			"settings":
+			{
+				"buffer_size": 6481,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sinatra/liftApp.rb",
+			"settings":
+			{
+				"buffer_size": 11080,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sinatra/views/new_trip_details.erb",
+			"settings":
+			{
+				"buffer_size": 1232,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sinatra/views/trip.erb",
+			"settings":
+			{
+				"buffer_size": 1143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2719,
 				"line_ending": "Unix"
 			}
 		}
@@ -323,16 +431,16 @@
 	"build_system": "Packages/User/Grunt.sublime-build",
 	"command_palette":
 	{
-		"height": 227.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"forma",
-				"Format: Javascript"
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
-				"sass",
-				"SassBeautify"
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"for",
@@ -340,6 +448,18 @@
 			],
 			[
 				"form",
+				"Format: Javascript"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"fora",
 				"Format: Javascript"
 			],
 			[
@@ -381,14 +501,6 @@
 			[
 				"list",
 				"Package Control: List Packages"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"ins",
@@ -436,144 +548,145 @@
 	},
 	"file_history":
 	[
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/js/mobile.nolog.js",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/js/mobile-nolog.js",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/settings/_mixins.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_header.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/settings/_vars.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_categories.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/mobile.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/js/aol-mobile/aol-accordion.bkp",
-		"/Users/conorluddy/Development/kerry-sharepoint-html/gruntfile.js",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/settings/_grid.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/simplicity_1/_simplicity-core.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/settings/_override.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_article.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_accordion.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_faq.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/js/mobile.js",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_navigation.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/js/aol-mobile/aol-console.js",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/js/aol-mobile/aol-accordion.js",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/gruntfile.js",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_article-list.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_footer.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_mixins.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_override.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_grid.scss",
-		"/Users/conorluddy/Library/Application Support/Sublime Text 3/Packages/User/luddy-snippets",
-		"/Users/conorluddy/Library/Application Support/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
-		"/Users/conorluddy/Library/Application Support/Sublime Text 3/Packages/JsFormat/JsFormat.sublime-settings",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/Vodafone-AOL-mobilisation.sublime-project",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/.sass-cache/84d5d5a93f3725b589e60e49332aa63666bdf68d/4g_aug13.sassc",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/bourbon/addons/_size.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/domhandler/test/cases/10-singular_attribute.json",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/samples/subcategories.html",
-		"/Users/conorluddy/Library/Application Support/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
-		"/Users/conorluddy/Library/Application Support/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/simplicity_1/simplicity-core.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/samples/support.html",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/samples/article.html",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/samples/categories.html",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/modules/_base.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/Samples/support.html",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/Samples/article.html",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/Samples/categories.html",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/Samples/subcategories.html",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/Samples/resources/main.css",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/Samples/resources/vfie_mega.css",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/print.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/sass/ie.scss",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/css-production/screen.css",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/README.md",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/config.rb",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/package.json",
-		"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/bower.json",
-		"/Users/conorluddy/Development/ProdriftAcademyUAE/wp-content/themes/prodriftacademy/content-bar-sponsors.php",
-		"/Users/conorluddy/Development/ProdriftAcademyUAE/wp-config.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/app.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/style.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_course-boxes.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/functions-pda.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/functions.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/functions-sponsors.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/functions-settings-page.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/functions-hero-slides.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sidebar.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/gruntfile.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/admin.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/admin.css",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/footer.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_content.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_home.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_secondary.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_footer.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/header.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_typo.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/proallax.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/responsive-slides.js",
-		"/Users/conorluddy/Desktop/pex",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_griddy.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_megafoot.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/ie.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/style.css",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_header.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_primarynav.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/page-home.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/content-bar-sponsors.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/fontAwesome/_icons.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/config.rb",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_grid.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/page-instagram.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_underscores.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/page-wide.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/page-map.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/ie.css",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_mixins.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/mbp.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/prodrift-academy.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/device-detect.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/no-scroll-hover.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/pd-config.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_colorbox.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/navigation.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/skip-link-focus-fix.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/prodriftacademy.min.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/fontAwesome/_core.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/page.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/content-page.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/content.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/content-single.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/index.php",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_animations.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/js/noScrollHover.js",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/fonts/fontAwesome/_spinning.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/css/style.css",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_colours.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/fontAwesome/_variables.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_vars.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_visibility.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/fonts/fontAwesome/font-awesome.scss",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/screen.css",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/pda.sublime-project",
-		"/Users/conorluddy/Development/ProdriftAcademy/wp-content/themes/prodriftacademy/sass/modules/_normalize.scss",
-		"/Users/conorluddy/Development/kerry-sharepoint-html/css/sass/webparts/_edit-profile.scss",
-		"/Users/conorluddy/Desktop/temp.scss",
-		"/Users/conorluddy/Development/kerry-sharepoint-html/config.rb",
-		"/Users/conorluddy/Development/kerry-sharepoint-html/css-production/screen.min.css",
-		"/Users/conorluddy/Development/kerry-sharepoint-html/teamsites-home.htm",
-		"/Users/conorluddy/Development/kerry-sharepoint-html/css/sass/modules/_editable-sharepoint-sections.scss",
-		"/Users/conorluddy/Development/kerry-sharepoint-html/css/sass/modules/_global-process-policies.scss"
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/user_settings.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/trip.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/new_trip.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/new_trip_details.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/model.rb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/rsvp.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/invitation.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/home.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/alltrips.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/friend_list.erb",
+		"/Users/conorluddy/Development/LiftApp/sass/jqm_modules/_defaults.scss",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/controller/story.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/map.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/controller/trip.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/trip.debug.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/rsvp.debug.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/invitation.debug.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/alltrips.debug.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/locations/marker.js",
+		"/Users/conorluddy/Development/LiftApp/sass/jqm_modules/_maps.scss",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/store/trip.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/store/message.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/controller/setMsg.js",
+		"/Users/conorluddy/Development/LiftApp/bower_components/modernizr/feature-detects/file-api.js",
+		"/Users/conorluddy/Development/LiftApp/docs/friends.html",
+		"/Users/conorluddy/Development/LiftApp/sinatra pre-jqm/views/map.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/maps/initialise.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/store/ui.js",
+		"/Users/conorluddy/Development/LiftApp/sass/jqm_modules/_panels.scss",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/users.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/layout.erb",
+		"/Users/conorluddy/Development/LiftApp/sass/jqm_screen.scss",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/invitations.erb",
+		"/Users/conorluddy/Development/LiftApp/sass/jqm_modules/_header.scss",
+		"/Users/conorluddy/Development/LiftApp/sass/jqm_modules/_login.scss",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/images/icons-svg/user-black.svg",
+		"/Users/conorluddy/Development/LiftApp/bower_components/modernizr/test/caniuse_files/pushstate.html",
+		"/Users/conorluddy/Development/LiftApp/package.json",
+		"/Users/conorluddy/Development/LiftApp/sinatra/liftApp.rb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/landing.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/layout_old.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/invitations.debug.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/login.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/tripdetails.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/friend_list.debug.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/savetrip.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/controller/init.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/controller/notifications.js",
+		"/Users/conorluddy/Development/LiftApp/sass/modules/_header.scss",
+		"/Users/conorluddy/Development/LiftApp/sass/modules/_panels.scss",
+		"/Users/conorluddy/Development/LiftApp/gruntfile.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/store/notifications.js",
+		"/Users/conorluddy/Development/LiftApp/sass/modules/_login.scss",
+		"/Users/conorluddy/Development/LiftApp/sass/screen.scss",
+		"/Users/conorluddy/Development/LiftApp/liftapp.sublime-project",
+		"/Users/conorluddy/Development/LiftApp/gulp.js",
+		"/Users/conorluddy/Library/Application Support/Sublime Text 3/Packages/User/GULP.sublime-build",
+		"/Users/conorluddy/Development/madebyluddy/mbl.sublime-project",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/controller/friends.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/store/invitees.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/store/friends.js",
+		"/Users/conorluddy/Development/LiftApp/docs/init.html",
+		"/Users/conorluddy/Development/LiftApp/sinatra/public/js/store/marker.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/omniAuthApp.rb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/notfound.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/authorised.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/protect_landing.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/gemfile",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/index.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/master.slim",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/deauth.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/authfail.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/404.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/master.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/authorised.slim",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/authfail.slim",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/deauth.slim",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/protect_landing.slim",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/user_settings.slim",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/users.slim",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/landing.slim",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/friend_list.slim",
+		"/Users/conorluddy/Development/LiftApp/config.rb",
+		"/Users/conorluddy/Development/LiftApp/doc/faq.md",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/login.slim",
+		"/Users/conorluddy/Development/LiftApp/sinatra/warden.rb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/wardenomniauth.rb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/omniauth.rb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/liftapp.rb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/classes/user.rb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/classes/model.rb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/authfail.slim.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/authorised.slim.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/deauth.slim.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/landing.slim.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/login.slim.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/protect_landing.slim.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/puffin.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/form.erb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/views/test.erb",
+		"/Users/conorluddy/Development/LiftApp/js/store/message.js",
+		"/Users/conorluddy/Development/LiftApp/sinatra/koala.rb",
+		"/Users/conorluddy/Development/LiftApp/sinatra/hello.rb",
+		"/Users/conorluddy/Development/LiftApp/js/controller/story.js",
+		"/Users/conorluddy/Development/LiftApp/js/locations/marker.js",
+		"/Users/conorluddy/Development/LiftApp/js/locations/locate.js",
+		"/Users/conorluddy/Development/LiftApp/js/controller/init.js",
+		"/Users/conorluddy/Development/LiftApp/js/maps/directions.js",
+		"/Users/conorluddy/Development/LiftApp/js/maps/initialise.js",
+		"/Users/conorluddy/Development/LiftApp/README.md",
+		"/Users/conorluddy/Development/LiftApp/js/maps/styles.js",
+		"/Users/conorluddy/Development/LiftApp/js/controller/setMsg.js",
+		"/Users/conorluddy/Development/LiftApp/js/controller/messages.js",
+		"/Users/conorluddy/Development/LiftApp/sass/modules/_maps.scss",
+		"/Users/conorluddy/Development/LiftApp/index.html",
+		"/Users/conorluddy/Development/LiftApp/sass/modules/_defaults.scss",
+		"/Users/conorluddy/Development/LiftApp/js/store/messages.js",
+		"/Users/conorluddy/Development/LiftApp/css/modules/defaults_.css",
+		"/Users/conorluddy/Development/LiftApp/sass/modules/_typo.scss",
+		"/Users/conorluddy/Development/LiftApp/sass/modules/defaults_.scss",
+		"/Users/conorluddy/Development/LiftApp/js/store/marker.js",
+		"/Users/conorluddy/Development/LiftApp/js/store/coordinates.js",
+		"/Users/conorluddy/Development/LiftApp/js/maps/listen.js",
+		"/Users/conorluddy/Development/LiftApp/js/controller/main.js",
+		"/Users/conorluddy/Development/LiftApp/js/liftapp.js",
+		"/Users/conorluddy/Development/LiftApp/js/loc/locate.js",
+		"/Users/conorluddy/Development/LiftApp/js/loc/marker.js",
+		"/Users/conorluddy/Development/LiftApp/js/store/markers.js"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"",
 			"/Users/conorluddy/Development/Vodafone-mobilisation/AOL_mobilisation/samples/resources",
 			"",
 			"*.scss",
@@ -591,6 +704,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"put",
+			"newtrip/details",
+			"put",
+			"/map",
+			"erb :ma",
+			"map.erb",
+			"Trips",
+			"alltr",
+			"tripdetails",
+			"+",
+			"Not authorized",
+			"erb :rsvp",
+			"RSVP",
+			"if",
+			"depar",
+			"session",
+			"trip",
+			".new",
+			"instruct_panel",
+			"instruct_panel_msg",
+			"placemarker",
+			"placeMarker",
+			"LA.loc)",
+			"LA.loc",
+			"LA.loc ",
+			".loc.",
+			"liftapp",
 			"mobile-nolog",
 			"vodefoneregular",
 			"vodefoneregula",
@@ -691,34 +831,7 @@
 			"search-filter",
 			".scroll-left",
 			"src",
-			".news-item",
-			".categories-and-tags",
-			".pane",
-			".ms-microfeed-microblogpart textarea.ms-microfeed-rootOrReplyPostBox",
-			".ms-microfeed-rootOrReplyPostBox",
-			".ms-microfeed-shareWith",
-			".ms-microfeed-microblogpart",
-			".ms-microfeed-attachmentButton",
-			"profile",
-			".news-and-events",
-			".table-interactive",
-			".news-events-container",
-			".ms-taxonomy-writeableregion",
-			".new-products",
-			".ms-contentFollowing-itemUrl",
-			".ms-microfeed-postButton",
-			".voice-a-concern",
-			"likeButton2",
-			".news-events-center-stories",
-			".newsdetail-comments",
-			".socialcomment-IMPawn",
-			".ms-formtable",
-			"trian",
-			".kerry-policies",
-			".code-of-conduct",
-			".code-of-conduct h3",
-			"#ms-belltown-table",
-			"#ms-belltown-table #DeltaPlaceHolderMain"
+			".news-item"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -726,6 +839,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"LA.locations)",
+			"LA.locations ",
+			".locations.",
+			"LA",
 			"mobile.nolog",
 			"resources",
 			"url(https://support.vodafone.ie/system/web/view/selfservice/templates/AskOnlineCustomer/interface_vf/interface_vfie/vfie_assets/",
@@ -835,24 +952,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "sinatra/public/js/store/coordinates.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3131,
+						"buffer_size": 398,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15,
-								15
+								393,
+								393
 							]
 						],
 						"settings":
@@ -860,26 +977,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -888,25 +1005,96 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close"
 							],
-							"is_xml": false,
 							"last_modified_indicator": true,
 							"last_modified_indicator_multiline": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/screen.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								295
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -916,96 +1104,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "css/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3852,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3830,
-								3830
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close"
-							],
-							"last_modified_indicator": true,
-							"last_modified_indicator_multiline": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2358.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "js/maps.js",
+					"file": "sinatra/public/js/controller/friends.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 559,
+						"buffer_size": 2540,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								494,
-								494
+								586,
+								604
 							]
 						],
 						"settings":
@@ -1013,18 +1125,34 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1036,32 +1164,553 @@
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close"
+								"bh_tag_close"
 							],
 							"last_modified_indicator": true,
 							"last_modified_indicator_multiline": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1021.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sinatra/public/js/controller/trip.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								944,
+								944
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sinatra/public/js/store/ui.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								569,
+								569
+							],
+							[
+								611,
+								611
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sinatra/public/js/controller/story.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5940,
+								5940
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 39.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "sinatra/liftApp.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4101,
+								4101
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sinatra/views/new_trip_details.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1020,
+								1020
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "sinatra/views/trip.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "gruntfile.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 110.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1087,11 +1736,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.446988857424,
 			1.0
 		],
 		"rows":
@@ -1103,7 +1759,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 396.0
+		"height": 683.0
 	},
 	"output.find_results":
 	{
@@ -1112,7 +1768,7 @@
 	"project": "liftapp.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1146,7 +1802,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 296.0,
+	"side_bar_width": 192.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

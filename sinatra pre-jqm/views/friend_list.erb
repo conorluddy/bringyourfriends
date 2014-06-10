@@ -1,0 +1,14 @@
+<%# #Inherits from layout.erb %>
+
+
+
+<h1>Friends using this app</h1>
+
+<ul>
+	<% for friend in @user.friends %>
+	<li>
+		<small><%= friend["firstname"] %></small>
+	</li>
+	<% end %>
+</ul>
+

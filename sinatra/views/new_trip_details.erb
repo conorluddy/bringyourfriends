@@ -1,0 +1,58 @@
+  
+
+
+<%# #Inherits from layout.erb %>
+
+
+
+
+
+<div data-role="header" data-position="fixed">
+
+    <a href="/home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars ui-btn-icon-notext"></a>
+
+    <span class="ui-title">
+        Lift App prototype | New trip details
+    </span>
+
+</div>
+
+
+
+<div data-role="content" data-theme="a" >
+
+    <form action="/trip/details/save" method="post">
+        <input type="hidden" name="_method" value="put" />
+
+
+        <label for="number-pattern">How many free seats have you?</label>
+        <input type="number" name="seats" pattern="[0-9]*" id="seats" value="">
+
+
+        <label for="textarea">Invitation message</label>
+        <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+
+        
+        <label for="timeoclock">Time</label>
+        <input type="time" data-clear-btn="true" name="timeoclock" id="timeoclock" value="">
+
+
+        <label for="date">Today, or when?</label>
+        <input type="text" data-role="date">
+
+
+        <input type="submit" class="ui-btn" value="Save trip details" />
+
+    </form>  
+
+</div>
+
+
+
+
+<div data-role="footer" data-position="fixed" id="panel_instruct">
+    <h4>Finalise details...</h4>
+</div>
+
+
+

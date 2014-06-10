@@ -1,0 +1,49 @@
+
+<%# #Inherits from layout.erb %>
+
+
+<div data-role="header" data-position="inline">
+  
+  <a href="/home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars ui-btn-icon-notext"></a>
+  <span class="ui-title">
+    Lift App prototype | Settings
+  </span>
+
+</div>
+
+
+
+<div data-role="content" data-theme="a">
+
+  <form action="/usersettings/update" method="post">
+    <input type="hidden" name="_method" value="put" />
+
+    <label>Username: </label>
+    <input type="text" name="username" value="<%= @user.username %>" />
+    <br />
+
+    <label>Email: </label>
+    <input type="text" name="email" value="<%= @user.email %>" />
+    <br />
+
+    <label>First name: </label>
+    <input type="text" name="firstname" value="<%= @user.firstname %>" />
+    <br />
+
+    <label>Last name: </label>
+    <input type="text" name="lastname" value="<%= @user.lastname %>" />
+    <br />
+
+    <label>LatLon to show friends: </label> 
+    <input type="text" name="latlon" value="<%= @user.latlon %>"  />
+    <br />
+
+    <input type="submit" value="Save changes" />
+
+  </form>
+
+</div>
+
+
+
+

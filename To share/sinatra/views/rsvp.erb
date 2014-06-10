@@ -1,0 +1,36 @@
+
+<%# #Inherits from layout.erb %>
+
+
+
+
+<div data-role="header" data-position="inline">
+
+	<a href="/home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars ui-btn-icon-notext"></a>
+	<h1>Lift App prototype | RSVP</h1>
+
+</div>
+
+
+<div data-role="content" data-theme="a">
+
+		
+
+
+	<h3>Invite: <%= @invitation.id %></h3>
+	<h3>Trip ID: <%= @invitation.trip.id %></h3>
+
+	<strong>Accepted: <%= @invitation.accepted %></strong>
+
+	<p>Msg: <%= @invitation.message %></p>	
+	<p>Rply: <%= @invitation.reply %></p>
+
+
+
+</div>
+
+
+
+
+
+

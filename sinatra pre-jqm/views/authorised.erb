@@ -1,0 +1,19 @@
+
+
+
+<%# #Inherits from layout.erb %>
+
+
+
+<%= params[:provider] %>
+
+<a href='/users'>User list</a>
+<a href='/usersettings'>Settings</a>
+<a href='/friendlist'>Friends</a>
+<a href='/friends.json'>Friends JSON</a>
+<a href='/map'>Map</a>
+
+ID: <%= request.env['omniauth.auth'][:uid] %>
+
+Email: <%= request.env['omniauth.auth'][:info][:email] %>
+

@@ -1,0 +1,10 @@
+
+<%# #Inherits from layout.erb %>
+
+  
+<h1>Authentication Failed</h1>
+<h3>"message: "</h3>
+
+<pre>
+	<%= JSON.pretty_generate( params ) %>
+</pre>

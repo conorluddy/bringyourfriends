@@ -1,0 +1,43 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+<h1>Invitation <small>[<%= @invite.id %>]</small></h1>
+
+
+
+
+<form method="post" action="/invite/rsvp/<%= @invite.id %>">
+	<input type="hidden" name="_method" value="put" />
+
+	
+	<%= @inviter.firstname %> is going from point A to point B 
+	at <%= @startTime.strftime("on %d/%m/%Y, at %H:%M") %>, 
+	and should be arriving at point B <%= @etaTime.strftime("around %H:%M") %>
+
+	<br />
+	<br />
+
+	<%= @seats %> free seats remaining...
+
+	<br />
+	<br />
+
+	<% if @accepted %>You've accepted this invitation<% end %>
+
+	<br />
+	<br />
+	
+	<label for="chk_accept">Call shotgun?</label>
+	<input type="checkbox" class="checkbox" name="chk_accept" id="chk_accept" <% if @accepted %>checked="checked" <% end %> >
+
+	<br />
+	<br />
+
+	<input type="submit" value="RSVP">
+
+</form>
+
+<br /><br />
+
+<img src="<%= @mapsrc %>" alt="Google map" width="600" height="300" />

@@ -1,0 +1,44 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+<h1>Invitations</h1>
+
+
+
+
+<% for invite in @invites %>
+
+	<h3>Invited by: <%= invite.trip.user.firstname %> | <%= invite.id %></h3>
+
+	<a href="/invitation/<%= invite.id %>">Details</a>
+
+	<hr />
+
+<% end %>
+
+<!-- 
+
+	<form method="post" action="/invite/accept/<%= invite.id %>">
+		<input type="hidden" name="_method" value="put" />
+
+		<h3>Invite: <%= invite.user.firstname %> | <%= invite.id %></h3>
+
+		<strong>Accepted: <%= invite.accepted %></strong>
+		
+		<p>Msg: <%= invite.message %></p>
+
+		<p>Rply: <%= invite.reply %></p>
+
+		<ul>
+			<li>created_at: <%= invite.trip.created_at %></li>
+			<li>startTime: <%= invite.trip.startTime %></li>
+			<li>etaTime: <%= invite.trip.etaTime %></li>
+			<li>startLatLon: <%= invite.trip.startLat %> | <%= invite.trip.startLon %></li>
+			<li>endLatLon: <%= invite.trip.endLat %> | <%= invite.trip.endLon %></li>
+			<li>seats: <%= invite.trip.seats %></li>
+		</ul>
+
+		
+      	<input type="submit" value="Accept">
+	</form> -->

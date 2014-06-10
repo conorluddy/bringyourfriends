@@ -1,0 +1,22 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+<h1>Invitations</h1>
+
+
+
+
+<% for invite in @invites %>
+
+
+
+	<h3>Invited by: <%= invite.trip.user.firstname %> | <%= invite.id %></h3>
+
+	<a href="/invitation/<%= invite.id %>">Details >></a>
+
+	<hr />
+
+
+
+<% end %>

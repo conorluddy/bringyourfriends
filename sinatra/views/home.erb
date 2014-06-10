@@ -1,0 +1,41 @@
+
+<%# #Inherits from layout.erb %>
+
+
+<div data-role="header" data-position="inline">
+
+	<h1>Lift App prototype | Home</h1>
+
+</div>
+
+
+<div data-role="content" data-theme="a">
+
+	<ul data-role="listview" data-inset="true">
+
+		<li data-role="list-divider">Main user paths</li>
+
+		<li><a data-ajax="false" href="/newtrip">Plan a new trip</a></li>
+		<li><a data-ajax="false" href="/mytrips">My trips</a></li>
+		<li><a data-ajax="false" href="/invitations">Invitations</a></li>
+		<li><a data-ajax="false" href="/usersettings">User Settings</a></li>
+
+		<li data-role="list-divider">Debug stuff</li>
+
+		<li><a data-ajax="false" href="/alltrips">All trips in DB</a></li>
+		<li><a data-ajax="false" href="/friendlist">Friend list</a></li>
+		<li><a data-ajax="false" href="/users">Users</a></li>
+
+		<li data-role="list-divider">JSON</li>
+
+		<li data-theme="c"><a data-ajax="false" target="_blank" href="/friends.json">friends.json</a></li>
+		<li data-theme="c"><a data-ajax="false" target="_blank" href="/invites.json">invites.json</a></li>
+		<li data-theme="c"><a data-ajax="false" target="_blank" href="/invitecount.json">invitecount.json</a></li>
+
+	</ul>
+
+</div>
+
+
+
+

@@ -1,0 +1,42 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+<h1>Invitation [id = <%= @invite.id %>]</h1>
+
+
+
+
+<form method="post" action="/invite/rsvp/<%= @invite.id %>">
+
+	<input type="hidden" name="_method" value="put" />
+
+	<h3>Invite: <%= @invite.user.firstname %> | <%= @invite.id %></h3>
+
+	<h4>Inviter: <%= @invite.trip.user.firstname %></h4>
+
+	<strong>Accepted: <%= @invite.accepted %></strong>
+	
+	<p>Msg: <%= @invite.message %></p>
+
+	<p>Rply: <%= @invite.reply %></p>
+
+	<ul>
+		<li>created_at: <%= @invite.trip.created_at %></li>
+		<li>startTime: <%= @invite.trip.startTime %></li>
+		<li>etaTime: <%= @invite.trip.etaTime %></li>
+		<li>startLatLon: <%= @invite.trip.startLat %> | <%= @invite.trip.startLon %></li>
+		<li>endLatLon: <%= @invite.trip.endLat %> | <%= @invite.trip.endLon %></li>
+		<li>seats: <%= @invite.trip.seats %></li>
+	</ul>
+
+	<label for="chk_accept">I am a passenger?</label>
+	<input type="checkbox" class="checkbox" name="chk_accept" id="chk_accept" <% if @invite.accepted? %>checked="checked"<% end %> >
+									
+	<input type="submit" value="RSVP">
+
+</form>
+
+
+
+

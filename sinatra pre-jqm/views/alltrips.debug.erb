@@ -1,0 +1,25 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+<h1>
+All trips
+</h1>
+
+
+
+<% for trip in @trips %>
+	<ul>	
+		<li>
+			<%= trip.startLat %>
+			<%= trip.startLon %>
+			<%= trip.endLat %>
+			<%= trip.endLon %>
+			<%= trip.startTime %>
+			<%= trip.etaTime %>
+			<%= trip.seats %>
+		</li>				
+	</ul>
+<% end %>
+
+<hr />

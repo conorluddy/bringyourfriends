@@ -1,0 +1,28 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+<h1>Trip details</h1>
+
+
+
+
+
+
+
+<ul>
+	<% for invitation in @invitations %>
+		<li>
+
+			<h3><%= invitation.user.firstname %> | <small>Accepted: <%= invitation.accepted %></small></h3>
+			
+
+		</li>
+	<% end %>
+</ul>
+
+
+
+<br /><br />
+
+<img src="<%= @mapsrc %>" alt="Google map" width="600" height="300" />

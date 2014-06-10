@@ -1,0 +1,53 @@
+  
+
+
+<%# #Inherits from layout.erb %>
+
+
+
+<div data-role="panel" data-display="push" id="friends_panel">
+    <h3>Invitees</h3>
+    <ul data-role="listview"></ul>
+</div>
+
+
+
+
+<div data-role="header" data-position="fixed">
+
+    <a href="/home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars ui-btn-icon-notext"></a>
+
+    <span class="ui-title">
+        Lift App prototype | New Trip 
+    </span>
+
+    <a href="#friends_panel" class="ui-btn-right ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-user ui-btn-icon-notext"></a>
+
+</div>
+
+
+
+<div data-role="content" data-theme="a" >
+    
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box">    
+
+    <div id="map-canvas"></div>
+
+    <form class="hidden" id="panel_submit" action="/trip/save" method="post">
+        <input type="hidden" id="trip-startLat" name="startLat" >
+        <input type="hidden" id="trip-startLon" name="startLon" >
+        <input type="hidden" id="trip-endLat" name="endLat" >
+        <input type="hidden" id="trip-endLon" name="endLon" >
+        <input type="hidden" id="trip-invitees" name="invitees" >
+        <input type="hidden" id="trip-polyline" name="polyline" >
+    </form>  
+
+</div>
+
+
+
+
+<div data-role="footer" data-position="fixed" id="panel_instruct"></div>
+
+
+

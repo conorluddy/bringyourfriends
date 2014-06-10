@@ -1,0 +1,74 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+
+<div data-role="header" data-position="inline">
+
+	<a href="/home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars ui-btn-icon-notext"></a>
+	<span class="ui-title">
+		Lift App prototype | Trip Details
+	</span>
+
+</div>
+
+
+<div data-role="content" data-theme="a">
+	
+	<div class="ui-corner-all custom-corners">
+		<div class="ui-bar ui-bar-a">
+			<h3>Going from A to B</h3>
+		</div>
+		<div class="ui-body ui-body-a">
+			<img id="static-map" src="<%= @mapsrc %>" alt="Google map" />
+		</div>
+	</div>
+
+
+	
+	
+	<p>Seats: <%= @trip.seats %></p>
+
+
+	<ul data-role="listview" data-inset="true">
+
+		<li data-role="list-divider">Invitations accepted</li>
+		
+		<% for invitation in @invitations %>
+
+			<% if invitation.accepted %>
+
+				<li>
+
+					<h3><%= invitation.user.firstname %></h3>
+
+				</li>
+
+			<% end %>
+
+		<% end %>
+
+		<li data-role="list-divider">Invitations pending</li>
+
+		<% for invitation in @invitations %>
+
+			<% if !invitation.accepted %>
+
+				<li>
+
+					<h3><%= invitation.user.firstname %></h3>
+
+				</li>
+
+			<% end %>
+
+		<% end %>
+
+	</ul>
+	
+</div>
+
+
+
+
+

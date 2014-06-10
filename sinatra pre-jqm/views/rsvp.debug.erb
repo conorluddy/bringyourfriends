@@ -1,0 +1,29 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+<h1>RSVP</h1>
+
+<h3>Invite: <%= @invitation.id %></h3>
+<h3>Trip ID: <%= @invitation.trip.id %></h3>
+
+<strong>Accepted: <%= @invitation.accepted %></strong>
+
+
+<p>Msg: <%= @invitation.message %></p>	
+<p>Rply: <%= @invitation.reply %></p>
+
+
+<ul>
+	<li>created_at: <%= @invitation.trip.created_at %></li>
+	<li>startTime: <%= @invitation.trip.startTime %></li>
+	<li>etaTime: <%= @invitation.trip.etaTime %></li>
+	<li>startLatLon: <%= @invitation.trip.startLat %> | <%= @invitation.trip.startLon %></li>
+	<li>endLatLon: <%= @invitation.trip.endLat %> | <%= @invitation.trip.endLon %></li>
+	<li>seats: <%= @invitation.trip.seats %></li>
+</ul>
+
+
+
+
+

@@ -1,0 +1,15 @@
+
+<%# #Inherits from layout.erb %>
+    
+
+<h1>RSVP</h1>
+
+<h3>Invite: <%= @invitation.id %></h3>
+<h3>Trip ID: <%= @invitation.trip.id %></h3>
+
+<strong>Accepted: <%= @invitation.accepted %></strong>
+
+
+<p>Msg: <%= @invitation.message %></p>	
+<p>Rply: <%= @invitation.reply %></p>
+
