@@ -28,7 +28,7 @@ class OmniAuthApp < Sinatra::Base
     # OmniAuth builder
     # ----------------
     use OmniAuth::Builder do
-      provider :facebook, '216691091856984','817d26ed7ea75721b1803db961e113cb', :info_fields => 'first_name,last_name,email'
+      provider :facebook, 'x','x', :info_fields => 'first_name,last_name,email'
     end
     
 
